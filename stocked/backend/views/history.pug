@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+    body
+        table
+            thead
+                tr
+                    th Name
+                    th date
+            tbody
+                each idea in ideas
+                    tr
+                        td= idea.name
+                        td= idea.date

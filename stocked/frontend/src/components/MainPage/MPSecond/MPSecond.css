@@ -1,0 +1,17 @@
+.mpsecond{
+    text-align: center;
+    color: white;
+    /*positioning on the middle of page*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background{
+    background-color: #2c3e50;
+    min-width: 100%;
+    min-height: 100vh;
+    /*positioning on the middle of page*/
+    position: relative;
+}
