@@ -2,7 +2,7 @@
 const MongoClient = require('mongodb').MongoClient;
 
 // replace the uri string with your connection string.
-const url = "mongodb+srv://philip7zachary:<password>@cluster0-ocmyg.mongodb.net/test?retryWrites=true&w=majority\n"
+const url = "mongodb+srv://<username>:<password>@cluster0-ocmyg.mongodb.net/test?retryWrites=true&w=majority\n"
 
 
 let mongodb;
