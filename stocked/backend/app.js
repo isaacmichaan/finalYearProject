@@ -10,7 +10,7 @@ const db = require('./routes/database_stocks');
 const MongoClient = require('mongodb').MongoClient;
 
 // Replace the uri string with your connection string.
-const uri = "mongodb+srv://philip7zachary:Mlp123Mlp123@cluster0-ocmyg.mongodb.net/test?retryWrites=true&w=majority\n"
+const uri = "mongodb+srv://<username>:<password>@cluster0-ocmyg.mongodb.net/test?retryWrites=true&w=majority\n"
 
 
 
